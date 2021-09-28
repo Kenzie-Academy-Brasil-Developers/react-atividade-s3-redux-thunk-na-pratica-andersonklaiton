@@ -1,0 +1,70 @@
+.container_all{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #afbfd6;
+}
+.container_all h2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container_all h2 div{
+    width: 60px;
+    height: 60px;
+    background-color: #001537;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment{
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6182ba;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 10px auto;
+}
+.input_comment input{
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    
+}
+.add_comment{
+    background-color: #1d85ca;
+    border: none;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+@media only screen and (min-width:768px){
+    .container_all h2{
+        width: 50%;
+        margin: 25px auto;
+    }
+    .comment{
+        width: 50%;
+    }
+    .input_comment{
+        width: 52%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_comment input{
+        width: 85%;
+    }
+    .add_comment{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+    
+}
